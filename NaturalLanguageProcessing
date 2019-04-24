@@ -1,0 +1,24 @@
+NLP--Understand Unstructured Data/text Processing
+
+Steps involved in NLP:
+
+Step 1: Remove Noise 
+        Using Dicts/List Comprehensions and Regex Patterns to remove unwanted data(#,&,is,a,am)
+Step 2: Normalize the data - (Example: All words represents the same meaning)
+        Use technoques like Stemming and Lemmatization(root form of word from dicitionary)
+        Use Python libraries like NLTK
+Step 3: Get the Data in a Standardized format 
+        Using Dicts/List Comprehensions and Regex Patterns
+        
+Step 5: Do Feature Engineering on the standrad Dataset
+        Part of Speech tagging
+        Stemming and Lemmatization
+        Extract Entities as Features(Raj was born in December--Here December is a Month(Entity))
+        Do Topic Modelling-- Use Python Libraries like gensim and corpara
+Steo 6: Get Grequency of words TF(Term Frequency)/Inverse Document Frequency (IDF)
+        Use  sklearn.feature_extraction module to extract features in a format
+Step 7: Do a Text Classification
+        Use Python Libraries like TextBlob,NaiveBayesClassifier and Scikit
+Step 8: Do a Coreference Resolution-It is a process of finding relational links among the words in sentences
+        Use StanfordCoreNLP package
+

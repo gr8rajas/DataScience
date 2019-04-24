@@ -6,7 +6,7 @@ Step 1: Remove Noise
         Using Dicts/List Comprehensions and Regex Patterns to remove unwanted data(#,&,is,a,am)
         
 Step 2: Normalize the data - (Example: All words represents the same meaning)
-        Use technoques like Stemming and Lemmatization(root form of word from dicitionary)
+        Use techniques like Stemming and Lemmatization(root form of word from dicitionary)
         Use Python libraries like NLTK
 
 Step 3: Get the Data in a Standardized format 
